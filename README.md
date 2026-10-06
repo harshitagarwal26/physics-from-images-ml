@@ -12,6 +12,13 @@ It is written for **macOS**. There are two experiments:
 
 Do **Part 0 (one‑time setup) first**, then either part.
 
+**For scientific background** (what the perturbation experiments mean, the
+exact results obtained, and why a LoRA-based approach was compared against an
+earlier "frozen delta-V" approach), see `CONTEXT_HANDOFF.md` and `Summary.md`
+in this folder. `examples/pend_delta_v_frozen_trainer.py` is the earlier
+approach kept here only so the comparison in `CONTEXT_HANDOFF.md` can be
+re-run; the LoRA trainer (Part A below) is the primary/final method.
+
 ---
 
 ## Part 0 — One‑time setup (do this once)
